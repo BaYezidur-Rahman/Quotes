@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Writer_Name"
+    android:background="@color/quotes_background_color"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cadViewId"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:backgroundTint="@color/actionBarWrite"
+        android:foreground="?android:selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="?actionBarSize"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:fontFamily="@font/hind_siliguri_regular"
+            />
+
+        <ImageView
+            android:layout_gravity="right"
+            android:id="@+id/optionButton"
+            android:layout_marginRight="10dp"
+            android:layout_width="30dp"
+            android:layout_height="?actionBarSize"
+            android:src="@drawable/ic_baseline_more_vert_24"
+            app:tint="@color/white" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_below="@id/cadViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/quran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quran"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#096A62"
+                android:layout_marginTop="5dp"
+                />
+            <Button
+                android:id="@+id/hadis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hadis"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#005D55"
+                />
+
+            <Button
+                android:id="@+id/arif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/arif"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#096A62"
+                />
+
+            <Button
+                android:id="@+id/rumi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rumi"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#005D55"
+                />
+
+            <Button
+                android:id="@+id/kunaibi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kunaibi"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#096A62"
+                />
+            <Button
+                android:id="@+id/bilal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bilal"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#005D55"
+                />
+
+            <Button
+                android:id="@+id/muzahid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/muzahid"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#096A62"
+                />
+            <Button
+                android:id="@+id/bashari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bahsri"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#005D55"
+                />
+
+
+
+            <Button
+                android:id="@+id/hamid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hamid"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#096A62"
+                />
+            <Button
+                android:id="@+id/taimiya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/taimiya"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#005D55"
+                />
+
+            <Button
+                android:id="@+id/shafiyi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shafiyi"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#096A62"
+                />
+            <Button
+                android:id="@+id/sulaiman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sulaiman"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#005D55"
+                />
+
+            <Button
+                android:id="@+id/kadir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kadir"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#096A62"
+                />
+            <Button
+                android:id="@+id/tarik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tarik"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#005D55"
+                />
+
+            <Button
+                android:id="@+id/ali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ali"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#096A62"
+                />
+            <Button
+                android:id="@+id/abu_bakar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/abu_bakar"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#005D55"
+                />
+
+            <Button
+                android:id="@+id/ikbal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ikbal"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#096A62"
+                />
+            <Button
+                android:id="@+id/atik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/atik"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#005D55"
+                />
+
+            <Button
+                android:id="@+id/japer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/japer"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#096A62"
+                />
+            <Button
+                android:id="@+id/sadi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sadi"
+                android:layout_marginHorizontal="13dp"
+                android:padding="13dp"
+                android:textSize="20sp"
+                android:backgroundTint="#005D55"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

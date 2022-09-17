@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/quotes_background_color"
+    android:orientation="vertical"
+    tools:context=".Tarik">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cadViewId"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:backgroundTint="@color/actionBar"
+        android:foreground="?android:selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="?actionBarSize"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tarik"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:fontFamily="@font/hind_siliguri_regular"
+            />
+
+        <ImageView
+            android:layout_gravity="right"
+            android:id="@+id/optionButton"
+            android:layout_marginRight="10dp"
+            android:layout_width="30dp"
+            android:layout_height="?actionBarSize"
+            android:src="@drawable/ic_baseline_more_vert_24"
+            app:tint="@color/white" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_below="@id/cadViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext1"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik1"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy1"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare1"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext2"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik2"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy2"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare2"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext3"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik3"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy3"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare3"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext4"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik4"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy4"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare4"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext5"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy5"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare5"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext6"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik6"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy6"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare6"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext7"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik7"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy7"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare7"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext8"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik8"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy8"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare8"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext9"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik9"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy9"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare9"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext10"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik10"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy10"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare10"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext11"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik11"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy11"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare11"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext12"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik12"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy12"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare12"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext13"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik13"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy13"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare13"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext14"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik14"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy14"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare14"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext15"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik15"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy15"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare15"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext16"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik16"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy16"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare16"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/tariktext17"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarik17"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/tarikcopy17"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/tarikshare17"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

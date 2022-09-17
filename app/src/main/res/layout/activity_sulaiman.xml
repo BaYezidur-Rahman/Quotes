@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/quotes_background_color"
+    android:orientation="vertical"
+    tools:context=".Sulaiman">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cadViewId"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:backgroundTint="@color/actionBar"
+        android:foreground="?android:selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="?actionBarSize"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sulaiman"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:fontFamily="@font/hind_siliguri_regular"
+            />
+
+        <ImageView
+            android:layout_gravity="right"
+            android:id="@+id/optionButton"
+            android:layout_marginRight="10dp"
+            android:layout_width="30dp"
+            android:layout_height="?actionBarSize"
+            android:src="@drawable/ic_baseline_more_vert_24"
+            app:tint="@color/white" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_below="@id/cadViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/sulaimantext1"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sulaiman1"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/sulaimancopy1"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/sulaimanshare1"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/sulaimantext2"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sulaiman2"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/sulaimancopy2"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/sulaimanshare2"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/sulaimantext3"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sulaiman3"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/sulaimancopy3"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/sulaimanshare3"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/sulaimantext4"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sulaiman4"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/sulaimancopy4"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/sulaimanshare4"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/sulaimantext5"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sulaiman5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/sulaimancopy5"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/sulaimanshare5"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/sulaimantext6"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sulaiman6"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/sulaimancopy6"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/sulaimanshare6"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/sulaimantext7"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sulaiman7"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/sulaimancopy7"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/sulaimanshare7"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/sulaimantext8"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sulaiman8"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/sulaimancopy8"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/sulaimanshare8"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/sulaimantext9"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sulaiman9"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/sulaimancopy9"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/sulaimanshare9"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/sulaimantext10"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sulaiman10"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/sulaimancopy10"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/sulaimanshare10"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/sulaimantext11"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sulaiman11"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/sulaimancopy11"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/sulaimanshare11"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/sulaimantext12"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sulaiman12"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/sulaimancopy12"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/sulaimanshare12"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/sulaimantext13"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sulaiman13"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/sulaimancopy13"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/sulaimanshare13"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

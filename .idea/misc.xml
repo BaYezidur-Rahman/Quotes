@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/New folder/Quotes/app/src/main/res/drawable-v24/ic_baseline_account_circle_24.xml" value="0.240625" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.12407407407407407" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/drawable/background_color.xml" value="0.23645833333333333" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/drawable/border_background.xml" value="0.21666666666666667" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/drawable/copy_share_place.xml" value="0.23645833333333333" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_abu_bakar.xml" value="0.14810996563573883" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_ali.xml" value="0.14521563342318058" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_arif_azad.xml" value="0.25" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_atik.xml" value="0.25" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_dbilal.xml" value="0.14219729462223687" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_dkunobi.xml" value="0.19797887000459347" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_hadis.xml" value="0.12008916132627473" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_hamid.xml" value="0.14536256323777402" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_hasan_al_bashari.xml" value="0.1" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_ikbal.xml" value="0.1923248549754574" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_jalaluddin_muhammad_rumi.xml" value="0.14580514208389717" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_japer.xml" value="0.1026679371129109" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_kadir.xml" value="0.12086371284352215" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_muzahid.xml" value="0.18078859060402686" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_quran.xml" value="0.14052820345614608" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_sadi.xml" value="0.1" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_shafiyi.xml" value="0.1" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_sulaiman.xml" value="0.33" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_taimiya.xml" value="0.22" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_tarik.xml" value="0.1" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/activity_writer_name.xml" value="0.22" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/layout/nav_header.xml" value="0.22447916666666667" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/menu/nav_menu.xml" value="0.15185185185185185" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/menu/option_menu.xml" value="0.22447916666666667" />
+        <entry key="..\:/New folder/Quotes/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.240625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

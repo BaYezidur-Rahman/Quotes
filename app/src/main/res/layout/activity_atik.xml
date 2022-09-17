@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/quotes_background_color"
+    android:orientation="vertical"
+    tools:context=".Atik">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cadViewId"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:backgroundTint="@color/actionBar"
+        android:foreground="?android:selectableItemBackground"
+        android:clickable="true"
+        >
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="?actionBarSize"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/atik"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:fontFamily="@font/hind_siliguri_regular"
+            />
+
+        <ImageView
+            android:layout_gravity="right"
+            android:id="@+id/optionButton"
+            android:layout_marginRight="10dp"
+            android:layout_width="30dp"
+            android:layout_height="?actionBarSize"
+            android:src="@drawable/ic_baseline_more_vert_24"
+            app:tint="@color/white" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_below="@id/cadViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext1"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik1"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy1"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare1"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext2"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik2"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy2"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare2"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext3"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik3"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy3"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare3"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext4"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik4"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy4"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare4"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext5"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy5"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare5"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext6"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik6"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy6"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare6"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext7"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik7"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy7"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare7"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext8"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik8"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy8"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare8"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext9"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik9"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy9"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare9"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext10"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik10"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy10"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare10"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext11"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik11"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy11"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare11"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext12"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik12"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy12"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare12"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext13"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik13"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy13"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare13"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext14"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik14"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy14"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare14"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext15"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik15"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy15"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare15"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext16"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik16"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy16"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare16"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext17"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik17"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy17"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare17"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext18"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik18"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy18"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare18"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext19"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik19"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy19"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare19"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+
+                android:elevation="5dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/atiktext20"
+                    android:textSize="20sp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atik20"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/atikcopy20"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/atikshare20"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

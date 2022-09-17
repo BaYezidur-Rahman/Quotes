@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/quotes_background_color"
+    android:orientation="vertical"
+    tools:context=".taimiya">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cadViewId"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:backgroundTint="@color/actionBar"
+        android:foreground="?android:selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="?actionBarSize"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/taimiya"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:fontFamily="@font/hind_siliguri_regular"
+            />
+
+        <ImageView
+            android:layout_gravity="right"
+            android:id="@+id/optionButton"
+            android:layout_marginRight="10dp"
+            android:layout_width="30dp"
+            android:layout_height="?actionBarSize"
+            android:src="@drawable/ic_baseline_more_vert_24"
+            app:tint="@color/white" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_below="@id/cadViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext1"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya1"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy1"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare1"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext2"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya2"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy2"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare2"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext3"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya3"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy3"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare3"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext4"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya4"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy4"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare4"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext5"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy5"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare5"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext6"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya6"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy6"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare6"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext7"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya7"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy7"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare7"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext8"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya8"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy8"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare8"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext9"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya9"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy9"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare9"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext10"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya10"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy10"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare10"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext11"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya11"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy11"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare11"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext12"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya12"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy12"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare12"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext13"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya13"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy13"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare13"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext14"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya14"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy14"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare14"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext15"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya15"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy15"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare15"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext16"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya16"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy16"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare16"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext17"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya17"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy17"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare17"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext18"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya18"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy18"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare18"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext19"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya19"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy19"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare19"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext20"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya20"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy20"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare20"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext21"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya21"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy21"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare21"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext22"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya22"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy22"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare22"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext23"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya23"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy23"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare23"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext24"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya24"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy24"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare24"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext25"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya25"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy25"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare25"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/taimiyatext26"
+                    android:textSize="18dp"
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taimiya26"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/copy_share_place"
+                    android:gravity="right"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/taimiyacopy26"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_content_copy_24"
+                        />
+                    <ImageView
+                        android:id="@+id/taimiyashare26"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

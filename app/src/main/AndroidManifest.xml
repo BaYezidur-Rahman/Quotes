@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bayezid.quotes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Quotes">
+        <activity
+            android:name=".hamid"
+            android:exported="false" />
+        <activity
+            android:name=".abu_bakar"
+            android:exported="false" />
+        <activity
+            android:name=".Hadis"
+            android:exported="false" />
+        <activity
+            android:name=".Quran"
+            android:exported="false" />
+        <activity
+            android:name=".Sadi"
+            android:exported="false" />
+        <activity
+            android:name=".Japer"
+            android:exported="false" />
+        <activity
+            android:name=".Atik"
+            android:exported="false" />
+        <activity
+            android:name=".Ikbal"
+            android:exported="false" />
+        <activity
+            android:name=".Ali"
+            android:exported="false" />
+        <activity
+            android:name=".Tarik"
+            android:exported="false" />
+        <activity
+            android:name=".Kadir"
+            android:exported="false" />
+        <activity
+            android:name=".Sulaiman"
+            android:exported="false" />
+        <activity
+            android:name=".Shafiyi"
+            android:exported="false" />
+        <activity
+            android:name=".taimiya"
+            android:exported="false" />
+        <activity
+            android:name=".Muzahid"
+            android:exported="false" />
+        <activity
+            android:name=".D_Bilal"
+            android:exported="false" />
+        <activity
+            android:name=".Hasan_Al_Bashari"
+            android:exported="false" />
+        <activity
+            android:name=".D_kunobi"
+            android:exported="false" />
+        <activity
+            android:name=".Jalaluddin_muhammad_rumi"
+            android:exported="false" />
+        <activity
+            android:name=".Arif_azad"
+            android:exported="false" />
+        <activity
+            android:name=".Writer_Name"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
