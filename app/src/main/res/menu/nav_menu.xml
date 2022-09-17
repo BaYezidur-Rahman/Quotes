@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/account"
+            android:title="My Account"
+            android:icon="@drawable/ic_baseline_account_circle_24"/>
+        <item
+            android:id="@+id/email"
+            android:title="Mail"
+            android:icon="@drawable/ic_baseline_email_24"/>
+        <item
+            android:id="@+id/love"
+            android:title="Love"
+            android:icon="@drawable/ic_baseline_favorite_24"/>
+        <item
+            android:id="@+id/chat"
+            android:title="Chat"
+            android:icon="@drawable/ic_baseline_chat_24"/>
+
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/ic_baseline_send_24"/>
+            <item
+                android:id="@+id/others_app"
+                android:title="Others App"
+                android:icon="@drawable/ic_baseline_widgets_24"/>
+        </menu>
+    </item>
+
+
+</menu>
