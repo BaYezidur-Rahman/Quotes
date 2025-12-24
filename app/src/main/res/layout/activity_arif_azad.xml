@@ -26,15 +26,14 @@
             app:tint="@color/white" />
 
         <TextView
-            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/arif"
-            android:gravity="center"
-            android:textSize="25sp"
             android:fontFamily="@font/hind_siliguri_regular"
-            />
+            android:gravity="center"
+            android:text="@string/arif"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
 
         <ImageView
             android:layout_gravity="right"
@@ -85,6 +84,12 @@
                     android:padding="5dp">
 
                     <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/ic_baseline_favorite_24"/>
+
+                    <ImageView
                         android:id="@+id/arifcopy1"
                         android:layout_marginRight="10dp"
                         android:layout_width="25dp"
@@ -98,6 +103,7 @@
                         android:layout_height="25dp"
                         android:src="@drawable/ic_baseline_send_24"
                         />
+
 
                 </LinearLayout>
             </LinearLayout>
